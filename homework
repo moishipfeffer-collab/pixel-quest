@@ -1,0 +1,37 @@
+mkdir pixel-quest
+cd pixel-quest
+echo "Game project ready" >> game.txt
+git init
+git add game.txt
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/moishipfeffer-collab/pixel-quest.git
+git push -u origin main
+cd ../
+mkdir diffrentfolder
+cd diffrentfolder
+git clone https://github.com/moishipfeffer-collab/pixel-quest.git
+cd pixel-quest
+git checkout -b feature/player-menu
+echo "Player menu started" >> player-menu.txt
+git add player-menu.txt
+git commit -m "player menu added"
+git push -u origin feature/player-menu
+git pull
+cat player-menu.txt
+echo "Player menu started with Start Game, Settings, and Exit buttons" >> player-menu.txt
+git add player-menu.txt
+git commit -m "more details"
+git push
+git switch main
+git pull
+git log
+ls
+echo "difficulty=normal" >> settings.txt
+git add settings.txt
+git commit -m "one more"
+git pull
+echo "difficulty=balanced" >> settings.txt
+git add settings.txt
+git commit -m "resolution"
+git push
