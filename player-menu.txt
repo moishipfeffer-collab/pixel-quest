@@ -1,1 +1,2 @@
 Player menu started in this moment
+Player menu started with Start Game, Settings, and Exit buttons
