@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 difficulty=normal
-=======
 difficulty=hard
->>>>>>> 1761295dba89d9c68d1840def11bbb7280f34a21
+1761295dba89d9c68d1840def11bbb7280f34a21
 difficulty=balanced
